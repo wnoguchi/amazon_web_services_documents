@@ -25,6 +25,10 @@
 - [Amazon Web Services ブログ](http://aws.typepad.com/aws_japan/)
 - [Amazon Web Services ブログ: AWSへの8つの質問：　東京データセンター開設後によくあるご質問集](http://aws.typepad.com/aws_japan/2011/03/new-customer-faq-after-tokyo-region.html)
 
+### お役立ち
+
+- [AWS特集 ｜ Developers.IO](http://dev.classmethod.jp/referencecat/aws-special/)
+
 ### コマーシャル
 
 - [AWS Management Console | アマゾン ウェブ サービス（AWS 日本語）](https://aws.amazon.com/jp/console/)
