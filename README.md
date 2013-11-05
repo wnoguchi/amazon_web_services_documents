@@ -14,6 +14,7 @@
 コマンドラインツール。
 
 - [AWS Command Line Tools - Amazon Web Services](http://docs.aws.amazon.com/general/latest/gr/GetTheTools.html)
+- [社内AWSエンジニア向けMac用ツールまとめ資料を公開してみる ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/osx-tools-for-aws-engineer-201311/)
 
 ### コンソール
 
