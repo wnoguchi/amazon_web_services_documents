@@ -2,19 +2,33 @@
 
 自分用のAWSまとめ。
 
-## 目的別
+## カテゴリ別
 
-### 中央集中管理コンソール  
+### ドキュメント
 
-[AWS Management Console Home](https://console.aws.amazon.com/console/home)
+- [ドキュメント | アマゾン ウェブ サービス（AWS 日本語）](http://aws.amazon.com/jp/documentation/)
+- [AWS特集 ｜ Developers.IO](http://dev.classmethod.jp/referencecat/aws-special/)
 
-### アカウントアクティビティ
+### ツール
+
+コマンドラインツール。
+
+- [AWS Command Line Tools - Amazon Web Services](http://docs.aws.amazon.com/general/latest/gr/GetTheTools.html)
+
+### コンソール
+
+#### メインコンソール
+
+- [AWS Management Console Home](https://console.aws.amazon.com/console/home)
+
+#### アカウントアクティビティ
 
 請求料金まるわかり。  
-結構リアルタイムにわかるらしいので心配症な人にも安心。  
-[Account Activity](https://portal.aws.amazon.com/gp/aws/developer/account?ie=UTF8&action=activity-summary#)
+結構リアルタイムにわかるらしいので心配症な人にも安心。
 
-### 利用料金のお見積り
+- [Account Activity](https://portal.aws.amazon.com/gp/aws/developer/account?ie=UTF8&action=activity-summary#)
+
+利用料金の見積もりについては
 
 - [Amazon Web Services Simple Monthly Calculator](http://calculator.s3.amazonaws.com/calc5.html?lng=ja_JP)
 
@@ -24,14 +38,6 @@
 
 - [Amazon Web Services ブログ](http://aws.typepad.com/aws_japan/)
 - [Amazon Web Services ブログ: AWSへの8つの質問：　東京データセンター開設後によくあるご質問集](http://aws.typepad.com/aws_japan/2011/03/new-customer-faq-after-tokyo-region.html)
-
-### お役立ち
-
-- [AWS特集 ｜ Developers.IO](http://dev.classmethod.jp/referencecat/aws-special/)
-
-### コマーシャル
-
-- [AWS Management Console | アマゾン ウェブ サービス（AWS 日本語）](https://aws.amazon.com/jp/console/)
 
 ### スライド
 
