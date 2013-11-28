@@ -181,8 +181,16 @@ foreach ($buckets as $bucket)
 
 これでOKです。
 
+どうやら本に載っている `new AmazonS3()` とかの記述は AWS SDK for PHP のもので、
+上で紹介しているのは AWS SDK for PHP 2のようだ・・・。
+どうりでまるっきり書き方が違うわけだ・・・。
+
 ## 参考サイト
 
 - [AWS SDK for PHP 2のインストール 〜 S3のバケット一覧取得まで - developer's diary](http://devlog.mitsugeek.net/entry/2013/06/13/AWS_SDK_for_PHP_2%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB_%E3%80%9C_S3%E3%81%AE%E3%83%90%E3%82%B1%E3%83%83%E3%83%88%E4%B8%80%E8%A6%A7%E5%8F%96%E5%BE%97%E3%81%BE%E3%81%A7)
 - [既に git 管理しているファイルをあえて無視したい - Qiita [キータ]](http://qiita.com/usamik26/items/56d0d3ba7a1300625f92)
+- [Amazon Simple Storage Service — AWS SDK for PHP 2.4.11 documentation](http://docs.aws.amazon.com/aws-sdk-php/guide/latest/service-s3.html)
+- [AWS SDK for PHP 1.6.2](http://docs.aws.amazon.com/AWSSDKforPHP/latest/index.html#m=AmazonS3/create_bucket)
+- [AWS SDK for PHP — AWS SDK for PHP 2.4.11 documentation](http://docs.aws.amazon.com/aws-sdk-php/guide/latest/index.html)
+- [Migration Guide — AWS SDK for PHP 2.4.11 documentation](http://docs.aws.amazon.com/aws-sdk-php/guide/latest/migration-guide.html)
 
