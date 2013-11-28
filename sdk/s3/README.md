@@ -185,6 +185,51 @@ foreach ($buckets as $bucket)
 上で紹介しているのは AWS SDK for PHP 2のようだ・・・。
 どうりでまるっきり書き方が違うわけだ・・・。
 
+## レシピ
+
+以下の記述はAWS SDK for PHP2のものです。
+
+### バケットを作成してみる
+
+* `include/book.inc.php`
+
+```php
+<?php
+define('BOOK_BUCKET', 'sitepoint-aws-cloud-book-wnoguchi');
+```
+
+* `create_bucket.php`
+
+```php
+<?php
+
+error_reporting(E_ALL);
+
+// Composer
+require_once('vendor/autoload.php');
+// AWS
+require_once('awssecure.inc.php');
+
+require_once('include/book.inc.php');
+
+use Aws\S3\S3Client;
+
+$s3 = S3Client::factory($config);
+
+$res = $s3->createBucket(array(
+  'Bucket' => BOOK_BUCKET,
+  // Tokyo Region
+  'LocationConstraint' => \Aws\Common\Enum\Region::AP_NORTHEAST_1,
+));
+
+if (!empty($res))
+{
+  echo $res["Location"] . "\n";
+  echo $res["RequestId"] . "\n";
+  echo "'" . BOOK_BUCKET . "' bucket created.\n";
+}
+```
+
 ## 参考サイト
 
 - [AWS SDK for PHP 2のインストール 〜 S3のバケット一覧取得まで - developer's diary](http://devlog.mitsugeek.net/entry/2013/06/13/AWS_SDK_for_PHP_2%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB_%E3%80%9C_S3%E3%81%AE%E3%83%90%E3%82%B1%E3%83%83%E3%83%88%E4%B8%80%E8%A6%A7%E5%8F%96%E5%BE%97%E3%81%BE%E3%81%A7)
