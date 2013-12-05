@@ -232,6 +232,10 @@ if (!empty($res))
 }
 ```
 
+これから先はこのあたりが参考になりそう。
+
+- [AWS/S3 - Ebisawa's Wiki](http://www.ebisawa.co.jp/wiki/index.php?AWS%2FS3)
+
 ## 参考サイト
 
 - [AWS SDK for PHP 2のインストール 〜 S3のバケット一覧取得まで - developer's diary](http://devlog.mitsugeek.net/entry/2013/06/13/AWS_SDK_for_PHP_2%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB_%E3%80%9C_S3%E3%81%AE%E3%83%90%E3%82%B1%E3%83%83%E3%83%88%E4%B8%80%E8%A6%A7%E5%8F%96%E5%BE%97%E3%81%BE%E3%81%A7)
