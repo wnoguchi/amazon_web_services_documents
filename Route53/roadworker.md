@@ -52,6 +52,13 @@ roadwork 0.3.10
 
 ## 使う
 
+当然ですが、AWS APIアクセスのためのアクセスキーに関する環境変数が事前にセットアップされている必要があります。
+
+```bash
+export AWS_ACCESS_KEY_ID='...'
+export AWS_SECRET_ACCESS_KEY='...'
+```
+
 ### 初期設定
 
 Routefileに現在管理されているhosted_zoneの設定を出力する。
