@@ -50,6 +50,14 @@ $ bundle exec roadwork --version
 roadwork 0.3.10
 ```
 
+## 使う
+
+```
+$ bundle exec roadwork -e -o Routefile
+
+Export Route53 to `Routefile
+```
+
 ## References
 
 - [【AWS】Route53をgitで管理する「Roadworker」を早速試してみました ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/route53-as-code-roadworker/)
