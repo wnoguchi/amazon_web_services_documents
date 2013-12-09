@@ -240,7 +240,7 @@ Composerでlog4phpを入れたいんだけど、
 
 - [gist:7838085](https://gist.github.com/wnoguchi/7838085)
 
-## Cloud Frontを使ってみる
+## CloudFrontを使ってみる
 
 AWS Management Consoleでディストリビューションを作成する。  
 OriginにS3のバケットを選択して作成。ステータスがDeployedとなれば完了。  
