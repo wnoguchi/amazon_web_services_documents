@@ -8,6 +8,7 @@
 
 - [ドキュメント | アマゾン ウェブ サービス（AWS 日本語）](http://aws.amazon.com/jp/documentation/)
 - [AWS特集 ｜ Developers.IO](http://dev.classmethod.jp/referencecat/aws-special/)
+- [Amazon Web Services入門 (全17回) - プログラミングならドットインストール](http://dotinstall.com/lessons/basic_aws)
 
 ### ツール
 
