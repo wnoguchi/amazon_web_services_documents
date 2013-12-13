@@ -1,5 +1,7 @@
 # Amazon SQS Development
 
+Amazon Simple Queue Service.
+
 ## レシピ
 
 ### キューを作成する
