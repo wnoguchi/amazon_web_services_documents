@@ -1,8 +1,10 @@
-# Amazon Web Services Documents
+Amazon Web Services Documents
+==================================================
 
 自分用のAWSまとめ。
 
-## カテゴリ別
+カテゴリ別
+--------------------------------------------------
 
 ### ドキュメント
 
@@ -46,7 +48,8 @@
 
 - [Amazon Web Services Simple Monthly Calculator](http://calculator.s3.amazonaws.com/calc5.html?lng=ja_JP)
 
-## リンク集
+リンク集
+--------------------------------------------------
 
 ### Amazon Web Services公式ブログ
 
