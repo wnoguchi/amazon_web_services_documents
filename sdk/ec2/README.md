@@ -1,6 +1,8 @@
-# Amazon EC2 Development
+Amazon EC2 Development
+======================================
 
-## レシピ
+レシピ
+--------------------------------------
 
 ### EC2のインスタンスを起動するスクリプト
 
@@ -143,6 +145,7 @@ try {
 echo "Finished!!\n";
 ```
 
-## 参考サイト
+参考サイト
+--------------------------------------
 
 - [AWS SDK for PHP — AWS SDK for PHP 2.4.11 documentation](http://docs.aws.amazon.com/aws-sdk-php/guide/latest/index.html)
